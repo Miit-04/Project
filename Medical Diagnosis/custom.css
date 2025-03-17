@@ -1,0 +1,76 @@
+/* Custom styling for medical interface */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Main styles */
+.stApp {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header styling */
+.stHeader {
+    background-color: #005EB8;
+    color: #F8F9FA;
+}
+
+/* Custom container styling */
+.condition-card {
+    background-color: #F8F9FA;
+    border-left: 4px solid #28A745;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.condition-card h3 {
+    color: #005EB8;
+    margin-bottom: 12px;
+}
+
+/* Button styling */
+.stButton button {
+    background-color: #005EB8;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.stButton button:hover {
+    background-color: #004a94;
+}
+
+/* Alert styling */
+.stAlert {
+    border-radius: 4px;
+    padding: 16px;
+    margin: 24px 0;
+}
+
+/* Warning colors */
+.stWarning {
+    background-color: #FFC107;
+    color: #2C3E50;
+}
+
+/* Success colors */
+.stSuccess {
+    background-color: #28A745;
+    color: white;
+}
+
+/* Spacing utilities */
+.st-emotion-cache-1v0mbdj {
+    margin-bottom: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .condition-card {
+        padding: 16px;
+    }
+    
+    .stButton button {
+        width: 100%;
+    }
+}
